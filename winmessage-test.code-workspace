@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"[go]": {
+			"editor.insertSpaces": false,
+			"editor.detectIndentation": false,
+			"editor.tabSize": 4
+		},
+		"[shellscript]": {
+			"editor.insertSpaces": true,
+			"editor.detectIndentation": true,
+			"editor.tabSize": 2
+		},
+		"gopls": {
+			"build.env": {
+				"GOOS": "windows",
+				"GOARCH": "amd64"
+			}
+		}
+	}
+}
